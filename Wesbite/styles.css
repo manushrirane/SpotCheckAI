@@ -1,0 +1,52 @@
+body {
+    font-family: 'Newsreader', serif;
+    margin: 400;
+    padding: 400;
+    display: flex;
+    height: 80vh;
+    background-color: #E3E3DC;
+}
+
+h1 {
+    text-align: center;
+    margin: 40px 0;
+    color: #000000;
+    font-size: 55px;
+    padding: 50;
+     
+}
+
+.results-section {
+    margin: 90px;
+    width: 150%; 
+    text-align: left;
+    margin-left: 50;
+    line-height: 1.55;
+}
+
+.results-section h2 {
+    color: #0077E5;
+    font-size: 40px; 
+    line-height: 1.5;
+    
+}
+
+.results-section ul {
+    font-size: 23px;
+    list-style: none;
+    padding: 30;
+}
+
+.results-section ul li {
+    margin-bottom: 50px;
+    font-size: 30px;
+}
+
+.results-section ul li h3 {
+    margin: 10;
+}
+
+.results-section ul li p {
+    margin: 9px 0 0;
+}
+
