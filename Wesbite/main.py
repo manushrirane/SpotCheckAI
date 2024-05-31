@@ -54,7 +54,7 @@ def make_prediction():
         st.session_state.file = None
 
 def upload():
-    st.title('Skin Lesion Detection', anchor=False)
+    st.title('SpotCheckAI', anchor=False)
     st.markdown(
         f"""
         <style>
@@ -68,7 +68,7 @@ def upload():
         unsafe_allow_html=True
     )
     st.write(
-        "Welcome to the Skin Lesion Detection app! Upload an image of a skin lesion and we'll analyze it for you.",
+        "Welcome to the skin lesion detection app! Upload an image of a skin lesion and we'll analyze it for you.",
         unsafe_allow_html=True
     )
 
